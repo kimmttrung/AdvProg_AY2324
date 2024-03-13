@@ -49,7 +49,10 @@ double mySqrt(double x) {
         cout << "Invalid argument" << endl;
         exit(1);
     }
-    else {cout << sqrt(x) << endl;}
+    else {
+        double number = sqrt(x);
+        return number;
+        }
 
     return 0;
 }
