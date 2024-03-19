@@ -134,7 +134,6 @@ void updateEnteredChars(const char ch, string& chars){
 ***/
 
 void updateIncorrectGuess(int& incorrectGuess){
-    incorrectGuess = 0;
     incorrectGuess++;
     // TODO: increase the value of incorrectGuess by 1
 }
