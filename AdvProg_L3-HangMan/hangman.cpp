@@ -55,10 +55,8 @@ bool isCharInWord(const char ch, const string& word)
     // TODO: return true if ch is in word else return false
     for(int i = 0;i < word.size(); i++) {
         if(ch == word[i]) return true;
-        else{
-            return false;
-        }
     }
+    return false;
 }
 
 /***
