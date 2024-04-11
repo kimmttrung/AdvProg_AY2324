@@ -178,9 +178,10 @@ bool isWholeWord(const string& mask)
     //Write your code here
     for(const auto& c : mask)
     {
-        if(c == '_') answer = false;
-        else answer = true;
+        if(c != '_') answer = true;
+        else answer = false;
     }
+
     return answer;
 }
 
