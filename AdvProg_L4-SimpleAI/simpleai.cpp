@@ -153,14 +153,12 @@ string getWordMask(char nextChar)
 
 bool isCorrectChar(char ch, const string& mask)
 {
-    bool answer;
+    bool answer = false;
     //Write your code here
     for(const auto& c : mask)
     {
         if(c == ch) answer = true;
-        else answer = false;
     }
-
     return answer;
 }
 
